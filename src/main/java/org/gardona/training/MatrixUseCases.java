@@ -30,7 +30,7 @@ public class MatrixUseCases {
 		showMatrix(image2);
 		HighGui.waitKey();
 
-		Mat image3 = Imgcodecs.imread("flower.jpeg");
+		Mat image3 = Imgcodecs.imread("images/flower.jpeg");
 		showMatrix(image3);
 		HighGui.waitKey();
 

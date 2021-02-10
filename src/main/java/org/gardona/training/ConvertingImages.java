@@ -12,7 +12,7 @@ public class ConvertingImages {
 	}
 
 	public static void main(String[] args) {
-		Mat mat = Imgcodecs.imread("flower.jpeg");
+		Mat mat = Imgcodecs.imread("images/flower.jpeg");
 
 		HighGui.namedWindow("Result Image");
 		System.out.println("Showing color image RGB");

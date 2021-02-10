@@ -13,7 +13,7 @@ public class Sobel {
     }
 
     public static void main(String[] args) {
-        Mat img = Imgcodecs.imread("flower.jpeg");
+        Mat img = Imgcodecs.imread("images/flower.jpeg");
         Mat gray = new Mat();
         Imgproc.cvtColor(img, gray, Imgproc.COLOR_BGRA2GRAY);
         var sobelProcess = new Mat();

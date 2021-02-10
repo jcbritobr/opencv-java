@@ -11,7 +11,7 @@ public class LoadGrayImage {
 	}
 
 	public static void main(String[] args) {
-		Mat mat = Imgcodecs.imread("flower.jpeg", Imgcodecs.IMREAD_GRAYSCALE);
+		Mat mat = Imgcodecs.imread("images/flower.jpeg", Imgcodecs.IMREAD_GRAYSCALE);
 		HighGui.namedWindow("Result image", HighGui.WINDOW_AUTOSIZE);
 		HighGui.imshow("Result image", mat);
 		HighGui.waitKey(0);

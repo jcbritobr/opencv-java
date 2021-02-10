@@ -14,7 +14,7 @@ public class DrawingOnImages {
 	}
 
 	public static void main(String[] args) {
-		Mat mat = Imgcodecs.imread("flower.jpeg");
+		Mat mat = Imgcodecs.imread("images/flower.jpeg");
 		
 		HighGui.namedWindow("Result image");
 		HighGui.imshow("Result image", mat);

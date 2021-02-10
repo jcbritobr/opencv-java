@@ -38,7 +38,7 @@ public class MouseEvents {
 	}
 
 	public static void main(String[] args) {
-		Mat mat = Imgcodecs.imread("flower.jpeg");
+		Mat mat = Imgcodecs.imread("images/flower.jpeg");
 
 		var image = mat2BufferedImage(mat);
 		ImageIcon icon = new ImageIcon(image);
