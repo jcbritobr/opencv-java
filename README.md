@@ -9,7 +9,7 @@ This repository is a collection of [OpenCv](https://opencv.org/) examples from c
 
 3 - Clone this project, and in the root folder, add java opencv-450.jar library to libs folder(if not exists, just create one).
 
-**The same process is valid for linux but instead of *.dll, the shared libraries will have *.so extensions. **Unfortunatelly, opencv 4.51 is not available on maven repositories. It cant be downloaded by gradle.
+**The same process is valid for linux** but instead of *.dll, the shared libraries will have *.so extensions. **Unfortunately, opencv 4.51 is not available on maven repositories**. It cant be downloaded by gradle.
 
 ### List of examples
 
