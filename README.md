@@ -23,5 +23,5 @@ This repository is a collection of [OpenCv](https://opencv.org/) examples from c
 * [**Matrix use cases**](src/main/java/org/gardona/training/MatrixUseCases.java) - Shows simple matrix use cases.
 * [**Regions of interests**](src/main/java/org/gardona/training/RegionsOfInterest.java) - Shows how to process only certain portions of a matrix.
 * [**Sobel**](src/main/java/org/gardona/training/Sobel.java) - Shows how to implement a sobel filter.
-* [**Camera capture**](src/main/org/gardona/training/CameraCapture.java) - Shows how to capture from camera devices and apply filters in captured matrix.
+* [**Camera capture**](src/main/java/org/gardona/training/CameraCapture.java) - Shows how to capture from camera devices and apply filters in captured matrix.
 
