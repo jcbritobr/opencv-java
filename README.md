@@ -1,4 +1,4 @@
-# <img src="images\opencvjava.jpeg" style="zoom:100%;" />
+# <img src="images/opencvjava.jpeg" style="zoom:100%;" />
 This repository is a collection of [OpenCv](https://opencv.org/) examples from c++ books, ported to Java language. Some examples has some changes to better adapt Java language.
 
 ### Installation
@@ -14,7 +14,7 @@ This repository is a collection of [OpenCv](https://opencv.org/) examples from c
 ### List of examples
 
 * [**Simple**](src/main/java/org/gardona/training/Simple.java) - This example shows how to setup [OpenCv](https://opencv.org/) in a Java program and create a matrix.
-* [**Mouse events**](src/main/java/org/gardona/training/MouseEvents.java) - This example shows how to setup a window that is able to track mouse positions.
+* [**Gui Use Cases**](src/main/java/org/gardona/training/GuiUseCase.java) - This example shows how to set up a gui to use with opencv.
 * [**Converting images**](src/main/java/org/gardona/training/ConvertingImages.java) - This example shows how to convert image formats.
 * [**Drawing on images**](src/main/java/org/gardona/training/DrawingOnImages.java) - Shows how to paint one image above other image.
 * [**Flipping images**](src/main/java/org/gardona/training/FlipingImages.java) - Shows how to flip an image in horizontal and vertical directions.
